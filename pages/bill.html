@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+    </head>
+    <body>
+        <div
+            class="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-400 to-blue-500">
+            <div class="w-full max-w-lg p-8 bg-white rounded-lg shadow-lg">
+                <h2 class="text-2xl font-bold text-center mb-6">Bill Master</h2>
+                <form>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-gray-700">Bill ID</label>
+                            <input type="text" placeholder="Bill ID"
+                                class="w-full px-4 py-2 border rounded-md" />
+                        </div>
+                        <div>
+                            <label class="block text-gray-700">Bill No</label>
+                            <input type="text" placeholder="Bill No"
+                                class="w-full px-4 py-2 border rounded-md" />
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Bill Date</label>
+                        <input type="date"
+                            class="w-full px-4 py-2 border rounded-md" />
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-gray-700">Student
+                                ID</label>
+                            <input type="text" placeholder="Student ID"
+                                class="w-full px-4 py-2 border rounded-md" />
+                        </div>
+                        <div>
+                            <label class="block text-gray-700">Gross
+                                Amount</label>
+                            <input type="text" placeholder="Gross Amount"
+                                class="w-full px-4 py-2 border rounded-md" />
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Net Amount</label>
+                        <input type="text" placeholder="Net Amount"
+                            class="w-full px-4 py-2 border rounded-md" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Bill Status</label>
+                        <input type="text" placeholder="Bill Status"
+                            class="w-full px-4 py-2 border rounded-md" />
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-gray-700">Entry Created
+                                Date</label>
+                            <input type="date"
+                                class="w-full px-4 py-2 border rounded-md" />
+                        </div>
+                        <div>
+                            <label class="block text-gray-700">Entry Created By
+                                ID</label>
+                            <input type="text" placeholder="Creator's ID"
+                                class="w-full px-4 py-2 border rounded-md" />
+                        </div>
+                    </div>
+                    <button
+                        class="w-full px-4 py-2 bg-green-500 text-white font-bold rounded-md">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
